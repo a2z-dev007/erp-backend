@@ -1,0 +1,17 @@
+[project]
+name = "prince-erp-backend"
+version = "0.1.0"
+requires-python = ">=3.12"
+description = "Modular ERP backend (Django + DRF)"
+
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "config.settings.test"
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]
