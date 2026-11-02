@@ -5,6 +5,16 @@ Modular monolith API (Django 5 + DRF) for the construction ERP. Architecture: [d
 **Implementation handbook (update as you build modules):** [docs/README.md](docs/README.md)  
 **API by module:** [docs/API_REFERENCE.md](docs/API_REFERENCE.md) · **AI / project context:** [../CONTEXT.md](../CONTEXT.md)
 
+## 🌐 Live Production Endpoints
+
+| Endpoint | Production URL | Description |
+| :--- | :--- | :--- |
+| **API Health Check** | [https://api.princeconstruction.co.in/api/v1/health/](https://api.princeconstruction.co.in/api/v1/health/) | Returns `{"status":"healthy"}` |
+| **Swagger UI Documentation** | [https://api.princeconstruction.co.in/api/v1/docs/](https://api.princeconstruction.co.in/api/v1/docs/) | Interactive Swagger UI API explorer |
+| **OpenAPI Schema** | [https://api.princeconstruction.co.in/api/v1/schema/](https://api.princeconstruction.co.in/api/v1/schema/) | Raw OpenAPI 3.0 YAML/JSON specification |
+| **Django Admin Portal** | [https://api.princeconstruction.co.in/admin/](https://api.princeconstruction.co.in/admin/) | Django administration dashboard |
+| **Frontend Web App** | [https://princeconstruction.co.in](https://princeconstruction.co.in) | Live Next.js client interface |
+
 ## Prerequisites
 
 - Python 3.12+ (3.14 tested)
